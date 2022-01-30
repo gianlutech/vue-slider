@@ -15,3 +15,15 @@ scomparire
 passare alla prima immagine
 Siate coerenti: o scompaiono o continuano a navigare, no a soluzioni miste!!
 */
+
+const root = new Vue({
+    el: '#root',
+    data: {
+        images: [
+            'images/image1.jpg',
+            'images/image2.jpg',
+            'images/image3.jpg',
+            'images/image4.jpg',
+        ]
+    }
+})

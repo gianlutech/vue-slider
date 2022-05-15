@@ -1,6 +1,14 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(78, 130, 191, 1) 100%);
+
+}
+
+
 .slider {
   height: 500px;
   position: relative;
+
 }
 
 [class*='fa-angle'] {
@@ -29,4 +37,11 @@
 
 .slider-dots .dot.active {
   background-color: dodgerblue;
+}
+
+.position {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
